@@ -9,7 +9,7 @@ Application security testing does not scale with release velocity: an annual pen
 ## Quickstart
 
 ```bash
-git clone https://github.com/Bit-Pulse-AI/vibe-sec-agent.git && cd vibe-sec-agent
+git clone https://github.com/Prompt-Shields/vibe-sec-agent.git && cd vibe-sec-agent
 python3 -m venv .venv && source .venv/bin/activate && pip install --upgrade pip playwright requests && python -m playwright install --with-deps chromium
 $EDITOR policy/scope.yaml   # required: allowed hosts, rate limits, test accounts
 docker compose -f runners/docker-compose.yml up -d
@@ -110,8 +110,8 @@ The relationship is sequential rather than tiered: this scaffold finds the promp
 ## Links
 
 - Documentation: [docs.promptshields.com](https://docs.promptshields.com); runner details in [runners/README.md](runners/README.md)
-- Security policy: this repository has no `SECURITY.md`. Report vulnerabilities privately to security@promptshields.com, never via a public issue. The canonical policy is [prompt-shields-sdk/SECURITY.md](https://github.com/Bit-Pulse-AI/prompt-shields-sdk/blob/main/SECURITY.md).
-- Contributing: this repository has no `CONTRIBUTING.md`. Open a pull request against `main`; see [prompt-shields-sdk/CONTRIBUTING.md](https://github.com/Bit-Pulse-AI/prompt-shields-sdk/blob/main/CONTRIBUTING.md) for the workflow we follow.
+- Security policy: this repository has no `SECURITY.md`. Report vulnerabilities privately to security@promptshields.com, never via a public issue. The canonical policy is [prompt-shields-sdk/SECURITY.md](https://github.com/Prompt-Shields/prompt-shields-sdk/blob/main/SECURITY.md).
+- Contributing: this repository has no `CONTRIBUTING.md`. Open a pull request against `main`; see [prompt-shields-sdk/CONTRIBUTING.md](https://github.com/Prompt-Shields/prompt-shields-sdk/blob/main/CONTRIBUTING.md) for the workflow we follow.
 - Tools used: [OWASP ZAP](https://www.zaproxy.org/), [nuclei](https://nuclei.projectdiscovery.io/), [Schemathesis](https://schemathesis.readthedocs.io/), [MobSF](https://mobsf.github.io/docs/), [mitmproxy](https://mitmproxy.org/)
 
 ## Licence
