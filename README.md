@@ -94,7 +94,7 @@ This is a scaffold, and the README of a security tool is the wrong place to over
 
 ## Free versus Prompt Shields Cloud
 
-This repository is free and stays that way. It is offensive tooling and sits outside the Prompt Shields product, which is defensive; there is no paid edition of this scaffold. The boundary across the product line: **anything an individual engineer needs is free; anything an organisation or an auditor needs is paid.** No capability moves from the free side to the paid side.
+This repository is free and Apache 2.0 licensed in full, and stays that way. It is offensive tooling and sits outside the Prompt Shields product, which is defensive; there is no paid edition of this scaffold. The boundary across the product line: **anything an individual engineer needs is free; anything an organisation or an auditor needs is paid.** No capability moves from the free side to the paid side.
 
 | | Free — this repository | Prompt Shields Cloud |
 |---|---|---|
@@ -110,10 +110,11 @@ The relationship is sequential rather than tiered: this scaffold finds the promp
 ## Links
 
 - Documentation: [docs.promptshields.com](https://docs.promptshields.com); runner details in [runners/README.md](runners/README.md)
-- Security policy: this repository has no `SECURITY.md`. Report vulnerabilities privately to security@promptshields.com, never via a public issue. The canonical policy is [prompt-shields-sdk/SECURITY.md](https://github.com/Prompt-Shields/prompt-shields-sdk/blob/main/SECURITY.md).
-- Contributing: this repository has no `CONTRIBUTING.md`. Open a pull request against `main`; see [prompt-shields-sdk/CONTRIBUTING.md](https://github.com/Prompt-Shields/prompt-shields-sdk/blob/main/CONTRIBUTING.md) for the workflow we follow.
+- Security policy: [SECURITY.md](SECURITY.md) — report vulnerabilities privately to security@promptshields.com, never via a public issue
+- Contributing: [CONTRIBUTING.md](CONTRIBUTING.md)
+- Code of conduct: [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)
 - Tools used: [OWASP ZAP](https://www.zaproxy.org/), [nuclei](https://nuclei.projectdiscovery.io/), [Schemathesis](https://schemathesis.readthedocs.io/), [MobSF](https://mobsf.github.io/docs/), [mitmproxy](https://mitmproxy.org/)
 
 ## Licence
 
-MIT. Note that no `LICENSE` file is currently present in this repository; one should be added before external contributions are accepted.
+Apache 2.0 — see [LICENSE](LICENSE) and [NOTICE](NOTICE).
